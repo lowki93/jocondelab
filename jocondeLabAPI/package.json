@@ -1,0 +1,34 @@
+{
+  "name": "jocondelabapi",
+  "version": "0.0.0",
+  "main": "lib/jocondelabapi.js",
+  "description": "The best module ever.",
+  "homepage": "https://github.com/lowki93/jocondelabapi",
+  "bugs": "https://github.com/lowki93/jocondelabapi/issues",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lowki93/jocondelabapi"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  },
+  "dependencies": {
+    "sequelize": "~2.0.0-beta.0",
+    "restify": "~2.6.0",
+    "pg": "~2.6.2",
+    "utils": "~0.1.4",
+    "q": "~0.9.7",
+    "nodemon": "~0.7.10"
+  }
+}
